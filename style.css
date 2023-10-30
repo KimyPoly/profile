@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins:wght@300&display=swap');
+body{
+  text-align: center;
+  background-color: #e0c5cb ;
+}
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+  color: #695b5e;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: #5e5a5a;
+  font-size: 16px;
+}
+img{
+  width: 200px;
+  height: 250px;
+  border-radius: 50%
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+}
+
+a:link {
+  color: black;
+}
+
+#icone {
+  font-size: 2em;
+}
+
+
+#recette {
+  font-size: 25px;
+  font-weight: bold;
+  color: #e0c5cb;
+  background-color: white;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 20%;
+}
+
+#recette:hover {
+  background-color: #383435;
+
+}
+
+li {
+  display: inline;
+  padding: 10px;
+
+}
+.container{
+  display: block;
+}
+.box {
+  background-color: white;
+  margin: 5em;
+  padding: 2em;
+  border-radius: 10%;
+  border-color: bisque;
+  box-shadow: 10px 5px 5px #383435;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
